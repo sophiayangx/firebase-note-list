@@ -1,7 +1,7 @@
 addListItem("sophia" + "/notes", "hi there!!!!")
 
 var name;
-var nameInput = $("#name-input")
+var nameInput = $("#name-input").val();
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
@@ -11,6 +11,8 @@ getNotesForName(nameInput.val())
 console.log("getNotesForName")
   }	
 })
+
+$('#txt_name').val('bla');
 
 function getNotesForName(name) {  
   onNewListItem(name + "/notes", function(note) {

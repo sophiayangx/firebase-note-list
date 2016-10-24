@@ -1,7 +1,7 @@
 addListItem("sophia" + "/notes", "hi there!!!!")
 
 var name;
-var nameInput = $("#name-input").val();
+var nameInput = $("#name-input");
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 

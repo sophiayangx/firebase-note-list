@@ -9,7 +9,6 @@ nameInput.keydown(function(e) {
   if (e.keyCode == 13) {
     name = $('#name-input').val();
     getNotesForName(name)
-
   }	
 })
 

@@ -24,3 +24,5 @@ noteInput.keydown(function(e) {
   }
 })
 
+
+  $("p").append("<b>hello</b>.");

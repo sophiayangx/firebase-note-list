@@ -14,7 +14,7 @@ nameInput.keydown(function(e) {
 
 function getNotesForName(name) { 
   onNewListItem(name + "/notes", function(note) {
-  console.log(hi)  
+  
   })
 }
 
@@ -23,3 +23,4 @@ noteInput.keydown(function(e) {
     addListItem(name + "/notes", noteInput.val())
   }
 })
+

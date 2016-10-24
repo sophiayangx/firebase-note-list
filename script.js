@@ -7,7 +7,7 @@ var noteList = $("#note-list")
 
 nameInput.keydown(function(e) {
   if (e.keyCode == 13) {
-
+addListItem(name + "/notes", noteInput.val())
   }	
 })
 

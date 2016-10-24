@@ -25,4 +25,4 @@ noteInput.keydown(function(e) {
 })
 
 
-  $("#note-list").append(note);
+  $("#note-list").append(name);

@@ -7,8 +7,8 @@ var noteList = $("#note-list")
 
 nameInput.keydown(function(e) {
   if (e.keyCode == 13) {
-getNotesForName()
-$('#name-input').val('nameInput');
+getNotesForName(name)
+$('#name-input').val();
 
   }	
 })

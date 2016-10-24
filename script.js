@@ -13,8 +13,8 @@ nameInput.keydown(function(e) {
 })
 
 function getNotesForName(name) { 
+  name("Sophia")
   onNewListItem(name + "/notes", function(note) {
-  note(whatwhat)
   })
 }
 

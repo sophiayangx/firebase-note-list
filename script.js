@@ -14,7 +14,7 @@ nameInput.keydown(function(e) {
 
 function getNotesForName(name) { 
   onNewListItem(name + "/notes", function(note) {
-  
+  note(whatwhat)
   })
 }
 
@@ -25,4 +25,4 @@ noteInput.keydown(function(e) {
 })
 
 
-  $("#note-list").append("");
+  $("#note-list").append(note);

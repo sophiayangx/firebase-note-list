@@ -4,6 +4,7 @@ var name;
 var nameInput = $("#name-input")
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
+console.log("hi")
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
